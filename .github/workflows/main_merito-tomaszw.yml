@@ -30,7 +30,7 @@ jobs:
         run: |
           echo "Listing files for debugging..."
           ls -R ./tests
-          dotnet test ./tests/MeritoWebApp.Tests/MeritoWebApp.Tests.csproj --no-build --verbosity normal
+          dotnet test ./CI-CD-AZURE/MeritoWebApp.test/MeritoWebApp.Tests.csproj --no-build --verbosity normal
 
       - name: dotnet publish
         run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/myapp"
