@@ -27,7 +27,7 @@ jobs:
         run: dotnet build --configuration Release
 
       - name: Test with xunit
-        run: dotnet /Users/timo/Desktop/tester oprogramowania/ci-cd-azure/MeritoWebApp.test/MeritoWebApp.Tests.csproj --no-build --verbosity normal
+        run: dotnet test/MeritoWebApp.Tests.csproj --no-build --verbosity normal
 
       - name: dotnet publish
         run: dotnet publish -c Release -o "${{env.DOTNET_ROOT}}/myapp"
