@@ -82,4 +82,4 @@ Te zasoby pomogą Ci zgłębić wiedzę na temat budowy, testowania i wdrażania
 
 ## Autorzy
 
-Projekt został stworzony w celach edukacyjnych przez [Twoje Imię]. Jeśli masz pytania, skontaktuj się poprzez [Twój e-mail].
+Projekt został stworzony w celach edukacyjnych przez Tmotoja. Jeśli masz pytania, smialo skontaktuj sie przez mail suwak-obwinienie.9n@icloud.com.
